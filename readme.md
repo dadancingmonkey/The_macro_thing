@@ -9,3 +9,11 @@ This project was the first time i've ever used Kicad, and through following guid
 
 ![alt text](https://github.com/dadancingmonkey/The_macro_thing/blob/main/images/Screenshot%202025-12-26%20at%209.24.36%E2%80%AFPM.png)
 ![alt text](https://github.com/dadancingmonkey/The_macro_thing/blob/main/images/Screenshot%202025-12-26%20at%209.24.47%E2%80%AFPM.png)
+
+the assembly:
+
+![alt text](https://github.com/dadancingmonkey/The_macro_thing/blob/main/images/Screenshot%202025-12-27%20at%2012.15.45%E2%80%AFAM.png)
+
+the top blue part is jsut a press fit:
+
+![alt text](https://github.com/dadancingmonkey/The_macro_thing/blob/main/images/Screenshot%202025-12-27%20at%2012.17.57%E2%80%AFAM.png)
