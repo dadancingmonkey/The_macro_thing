@@ -1,0 +1,64 @@
+{
+    "manufacturer": "seeed",
+    "keyboard_name": "the_macro_thing",
+    "maintainer": "dadncingmonkey",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder": true,
+        "oled": true,
+        "rgblight": true
+    },
+    "matrix_pins": {
+        "cols": ["GP28", "GP29", "GP0", "GP1", "GP2", "GP4"],
+        "rows": ["GP28", "GP29", "GP0"]
+    },
+    "ws2812": {
+        "driver": "vendor",
+        "pin": "GP3"
+      },
+      "rgblight": {
+        "led_count": 13
+    },
+    "encoder_pins": {
+        "A": ["GP26"],
+        "B": ["GP27"]
+    },
+    "oled_pins": {
+        "sda": "GP6",
+        "scl": "GP7"
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [0, 5], "x": 5, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1}, 
+                {"matrix": [1, 3], "x": 3, "y": 1},
+                {"matrix": [1, 4], "x": 4, "y": 1},
+                {"matrix": [1, 5], "x": 5, "y": 1},
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2},
+                {"matrix": [2, 3], "x": 3, "y": 2},
+                {"matrix": [2, 4], "x": 4, "y": 2},
+                {"matrix": [2, 5], "x": 5, "y": 2}
+            ]
+        }
+    }
+}
